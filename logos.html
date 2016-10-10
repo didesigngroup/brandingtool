@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css">
+  <link rel="stylesheet" href="https://mjolnic.com/bootstrap-colorpicker/dist/css/bootstrap-colorpicker.min.css">
+  <link rel="stylesheet" href="https://mjolnic.com/bootstrap-colorpicker/docs/assets/main.css">
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://mjolnic.com/bootstrap-colorpicker/dist/js/bootstrap-colorpicker.js"></script>
+
+</head>
+<body>
+
+<div class="container">
+  <h2>Accordion Example</h2>
+  <p><strong>Note:</strong> The <strong>data-parent</strong> attribute makes sure that all collapsible elements under the specified parent will be closed when one of the collapsible item is shown.</p>
+  <div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Overview</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse in">
+        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Preview View</a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Review Online Banking Product</a>
+        </h4>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse">
+
+       <div class="container">
+        <!-- collapse first panel -->
+
+        <a href="#" class="btn btn-link" data-toggle="collapse" data-target="#visualbrand"><h4>Visual Brand</h4></a>
+        <div id="visualbrand" class="collapse in">
+          <p>Review your branding settings </p>
+
+          <div class="panel-body">
+            <div class="btn-group btn-group-justified">
+              <a href="#" class="btn btn-default">Logo</a>
+              <a href="#" class="btn btn-default">Branding Colors</a>
+              <a href="#" class="btn btn-default">Heading fonts and values</a>
+            </div>
+          </div>  
+
+          <div class="container">
+             <div class="col-md-4" style="background-color:lavender;"> 
+             
+
+                <h5>Logo Specs</h5>
+
+<p>Standard sizes (in pixels) are:</p>
+
+<h5>Large:  200 x 75</h5>
+<h5>Small:  149 x 55</h5>
+
+<p>The large logo can support larger width
+and height.</p>
+<p>Recommended: stay within 270 x 85 pixels.</p>
+
+<p>Want assistance with your logo?</p>
+<p>Contact us to<a href="#">request a change.</a></p>
+
+              
+              </div>  <!-- .col-md-6 -->
+
+             <div class="col-md-8">
+               
+      <p>Large Logo</p>
+
+      <p><img src="http://placehold.it/186x42"></p>
+
+      <button type="button" class="btn btn-default">Upload new logo</button>
+
+      <p>Small Logo</p>
+
+      <p><img src="http://placehold.it/147x55"></p>
+
+      <button type="button" class="btn btn-default">Upload new logo</button>
+
+             </div>  <!-- .col-md-6 -->
+          </div> 
+
+
+         <br clear="all" /> <br /> 
+
+          <button type="button" class="btn btn-default">Save</button>
+          <button type="button" class="btn btn-default">Revert to Last Saved Values</button>
+
+
+      </div><!-- .container   -->
+
+      <div class="container">
+       <!--  collapse second panel -->
+
+       <a href="#navigation" class="btn btn-link" data-toggle="collapse"><h4>Navigation</h4></a>
+       <div id="navigation" class="collapse">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </div>   <!-- #navigation -->
+
+      </div>   <!-- .container   -->
+
+      
+
+      </div> <!-- //.panel-collapse collaps -->
+    </div>
+  </div>
+</div>
+    
+</body>
+</html>
+

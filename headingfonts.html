@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Accordion Example</h2>
+  <p><strong>Note:</strong> The <strong>data-parent</strong> attribute makes sure that all collapsible elements under the specified parent will be closed when one of the collapsible item is shown.</p>
+  <div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Overview</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse in">
+        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Preview View</a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Review Online Banking Product</a>
+        </h4>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse">
+
+       <div class="container">
+        <!-- collapse first panel -->
+
+        <a href="#" class="btn btn-link" data-toggle="collapse" data-target="#visualbrand"><h4>Visual Brand</h4></a>
+        <div id="visualbrand" class="collapse in">
+          <p>Review your branding settings </p>
+
+          <div class="panel-body">
+            <div class="btn-group btn-group-justified">
+              <a href="#" class="btn btn-default">Logo</a>
+              <a href="#" class="btn btn-default">Branding Colors</a>
+              <a href="#" class="btn btn-default">Heading fonts and values</a>
+            </div>
+          </div>   <!-- .panel-body
+
+
+          <!-- <div class="container">
+  <ul class="nav nav-pills">
+    <li class="active"><a data-toggle="pill" class="btn btn-default" href="#home">Home</a></li>
+    <li><a data-toggle="pill" class="btn btn-default" href="#menu1">Menu 1</a></li>
+    <li><a data-toggle="pill" class="btn btn-default" href="#menu2">Menu 2</a></li>
+  </ul>
+  
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h3>HOME</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h3>Menu 1</h3>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h3>Menu 2</h3>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+    </div>
+  </div>
+</div> -->
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+
+          <div class="form-group">
+            <label class="col-sm-2 control-label">Heading font-family</label>
+
+            <div class="col-sm-8">
+              <select class="form-control" id="sel1">
+                <option>Georgia, "Times New Roman", Times, serif</option>
+                <option>"Palatino Linotype", "Book Antiqua", Palatino, serif</option>
+                <option>Arial, Helvetica, sans-serif</option>
+                <option>"Comic Sans MS", cursive, sans-serif</option>
+              </select>
+            </div>
+          </div>   <!-- .form-group -->
+
+           <br clear="all" /> <br /> 
+
+          <p>You can also change the text value of the consumer home page section headings listed below.</p>
+
+          <br clear="all" /> <br /> 
+
+          <div class="container">
+            <div class="col-md-3">Accounts</div>
+            <div class="col-md-3"><input type="Accounts" class="form-control" id="email"></div>
+            <div class="col-md-3"><button type="button" class="btn btn-default btn-block">Accounts</button></div>
+          </div>
+
+          <div class="container">
+            <div class="col-md-3">Accounts</div>
+            <div class="col-md-3"><input type="Accounts" class="form-control" id="email"></div>
+            <div class="col-md-3"><button type="button" class="btn btn-default btn-block">Accounts</button></div>
+          </div>
+
+          <div class="container">
+            <div class="col-md-3">Accounts</div>
+            <div class="col-md-3"><input type="Accounts" class="form-control" id="email"></div>
+            <div class="col-md-3"><button type="button" class="btn btn-default btn-block">Accounts</button></div>
+          </div>
+
+          <div class="container">
+            <div class="col-md-3">Accounts</div>
+            <div class="col-md-3"><input type="Accounts" class="form-control" id="email"></div>
+            <div class="col-md-3"><button type="button" class="btn btn-default btn-block">Accounts</button></div>
+          </div>
+
+          <div class="container">
+            <div class="col-md-3">Accounts</div>
+            <div class="col-md-3"><input type="Accounts" class="form-control" id="email"></div>
+            <div class="col-md-3"><button type="button" class="btn btn-default btn-block">Accounts</button></div>
+          </div>
+
+          <br clear="all" /> <br /> 
+
+          <button type="button" class="btn btn-default">Default</button>
+          <button type="button" class="btn btn-default">Default</button>
+
+        </div>  <!-- #visualbrand -->
+
+      </div><!-- .container   -->
+
+      <div class="container">
+       <!--  collapse second panel -->
+
+       <a href="#navigation" class="btn btn-link" data-toggle="collapse"><h4>Navigation</h4></a>
+       <div id="navigation" class="collapse">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </div>   <!-- #navigation -->
+
+       </div>   <!-- .container   -->
+
+      </div> <!-- //.panel-collapse collaps -->
+    </div>
+  </div>
+</div>
+    
+</body>
+</html>
+

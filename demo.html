@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Case</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css">
+  <link rel="stylesheet" href="https://mjolnic.com/bootstrap-colorpicker/dist/css/bootstrap-colorpicker.min.css">
+  <link rel="stylesheet" href="https://mjolnic.com/bootstrap-colorpicker/docs/assets/main.css">
+
+  <style>
+    .ui-page-bg{
+      padding: 20px;
+    }
+    .ui-html *{
+      /*border: 1px dotted #ccc;*/
+    }
+    nav, .ui-logo {clear: both;}
+    .ui-logo{
+      padding-left: 20px;
+    }
+    .ui-logo span {
+      text-align: right;
+    }
+    .ui-html {
+      border: 1px solid #666;
+      background: #ededed;
+    }
+    .ui-utility, .ui-featured {
+      float: right;
+      width: 50%;
+      margin-right: 40px;
+      border: 1px solid #333;
+    }
+    .ui-mainnav {
+      background-color: #666;
+      color: #fff;
+    }
+    .ui-header {background: #fff;}
+    .ui-header span {
+      float: right;
+      width: 50px;
+      text-align: center;
+    }
+    .ui-header > span {
+      float: right; width: 40px;
+      text-align: center;;
+    }
+    .ui-widget{
+      width: 50%;
+      margin: 20px;
+      border: 1px solid #999;
+      background: #fff;
+    }
+    .ui-widget * {
+      padding: 5px;
+    }
+    .ui-widget-content {
+      padding: 20px;
+    }
+    .ui-widget-header {
+      background-color: #666;
+      color: #fff;
+    }
+    .ui-icon {}
+  </style>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://mjolnic.com/bootstrap-colorpicker/dist/js/bootstrap-colorpicker.js"></script>
+
+
+</head>
+<body>
+
+ <br clear="all" /> <br /> 
+
+
+  <!-- Accordion -->
+  <div class="container">
+
+    <div class="panel-group" id="accordion">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Overview</a>
+          </h4>
+        </div>  <!-- panel-heading -->
+
+        <div id="collapse1" class="panel-collapse collapse in">
+          <div class="panel-body">
+
+          A. Overview
+
+         </div> <!-- panel-body -->
+       </div>  <!-- panel-collapse collapse in -->
+
+       <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Preview View</a>
+          </h4>
+        </div>
+
+        <div id="collapse2" class="panel-collapse collapse">
+          <div class="panel-body">
+            
+            B. Preview View
+
+          </div>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Review Online Banking Product</a>
+            </h4>
+          </div>
+          <div id="collapse3" class="panel-collapse collapse">
+
+            <div class="panel-body">
+
+
+              <!--  Simple Collapsible -->
+
+            <div class="container">
+
+              <a href="#visualbrand" class="btn btn-link" data-toggle="collapse">Visual Brand</a>
+              <div id="visualbrand" class="collapse">
+
+             <!-- Dynamic Pills -->
+             <div class="container">
+
+             <div class="col-md-10">
+
+              <ul class="nav nav-pills nav-justified" style="margin-bottom: 1em;">
+                <li class="active"><a data-toggle="pill" href="#menu0">Logo</a></li>
+                <li><a data-toggle="pill" href="#menu1">Branding Colors</a></li>
+                <li><a data-toggle="pill" href="#menu2">Heading fonts and values</a></li>
+              </ul>  <!-- nav nav-pills -->
+
+            </div>  
+
+
+
+              <div class="tab-content">
+
+                <div id="menu0" class="tab-pane fade in active">
+                  
+                  <!-- Logos -->
+                 <div class="container">
+
+                   <div class="col-md-4" style="background-color:lavender;">  
+
+                    <h5>Logo Specs</h5>
+
+                    <p>Standard sizes (in pixels) are:</p>
+
+                    <h5>Large:  200 x 75</h5>
+                    <h5>Small:  149 x 55</h5>
+
+                    <p>The large logo can support larger width
+                      and height.</p>
+                      <p>Recommended: stay within 270 x 85 pixels.</p>
+
+                      <p>Want assistance with your logo?</p>
+                      <p>Contact us to<a href="#">request a change.</a></p>
+
+                   </div>  <!-- .col-md-4-->
+
+                  <div class="col-md-8"> 
+
+                   <p>Large Logo</p>
+
+                   <p><img src="http://placehold.it/186x42"></p>
+
+                   <button type="button" class="btn btn-default">Upload new logo</button>
+
+                   <p>Small Logo</p>
+
+                   <p><img src="http://placehold.it/147x55"></p>
+
+                   <button type="button" class="btn btn-default">Upload new logo</button>
+            
+                  </div>  <!-- .col-md-8 -->
+
+                  <br clear="all" /> <br /> 
+
+                  <button type="button" class="btn btn-primary">Save</button>
+                  <button type="button" class="btn btn-default">Revert to Last Saved Values</button>
+
+                  </div><!-- .container -->
+
+                 <!-- Logos -->
+
+                </div>  <!-- menu0 -->
+
+                <div id="menu1" class="tab-pane fade">
+                  
+                   <div class="container">
+
+           <div class="col-xs-6 col-lg-4">
+
+              <form class="form-horizontal" role="form">
+
+                <div class="form-group">
+                  <label class="control-label col-sm-4" for="pwd">A background</label>
+                  <div id="cp2" class="input-group colorpicker-component col-sm-4">
+                    <input type="text" value="#66666" class="form-control" />
+                    <span class="input-group-addon"><i></i></span>
+                  </div>
+                  <script>
+                    $(function() {
+                      $('#cp2').colorpicker();
+                    });
+                  </script>
+                </div> <!-- .form-group -->
+
+                <div class="form-group">
+                  <label class="control-label col-sm-4" for="pwd">A text</label>
+                  <div id="cp3" class="input-group colorpicker-component col-sm-4">
+                    <input type="text" value="#fffff" class="form-control" />
+                    <span class="input-group-addon"><i></i></span>
+                  </div>
+                  <script>
+                    $(function() {
+                      $('#cp3').colorpicker();
+                    });
+                  </script>
+                </div> <!-- .form-group -->
+
+
+                <div class="form-group">
+                  <label class="control-label col-sm-4" for="pwd">B background</label>
+                  <div id="cp4" class="input-group colorpicker-component col-sm-4">
+                    <input type="text" value="#66666" class="form-control" />
+                    <span class="input-group-addon"><i></i></span>
+                  </div>
+                  <script>
+                    $(function() {
+                      $('#cp4').colorpicker();
+                    });
+                  </script>
+                </div> <!-- .form-group -->
+
+                <div class="form-group">
+                  <label class="control-label col-sm-4" for="pwd">B text</label>
+                  <div id="cp5" class="input-group colorpicker-component col-sm-4">
+                    <input type="text" value="#fffff" class="form-control" />
+                    <span class="input-group-addon"><i></i></span>
+                  </div>
+                  <script>
+                    $(function() {
+                      $('#cp5').colorpicker();
+                    });
+                  </script>
+                </div> <!-- .form-group -->
+
+
+                <div class="form-group">
+                  <label class="control-label col-sm-4" for="pwd">C link/icon</label>
+                  <div id="cp6" class="input-group colorpicker-component col-sm-4">
+                    <input type="text" value="#0055cc" class="form-control" />
+                    <span class="input-group-addon"><i></i></span>
+                  </div>
+                  <script>
+                    $(function() {
+                      $('#cp6').colorpicker();
+                    });
+                  </script>
+                </div> <!-- .form-group -->
+
+                <div class="form-group">
+                  <label class="control-label col-sm-4" for="pwd">D background</label>
+                  <div id="cp7" class="input-group colorpicker-component col-sm-4">
+                    <input type="text" value="#ededed" class="form-control" />
+                    <span class="input-group-addon"><i></i></span>
+                  </div>
+                  <script>
+                    $(function() {
+                      $('#cp7').colorpicker();
+                    });
+                  </script>
+                </div> <!-- .form-group -->
+
+
+                <div class="form-group">
+                  <label class="control-label col-sm-4" for="pwd">E background</label>
+                  <div id="cp8" class="input-group colorpicker-component col-sm-4">
+                    <input type="text" value="#66666" class="form-control" />
+                    <span class="input-group-addon"><i></i></span>
+                  </div>
+                  <script>
+                    $(function() {
+                      $('#cp8').colorpicker();
+                    });
+                  </script>
+                </div> <!-- .form-group -->
+
+                <div class="form-group">
+                  <label class="control-label col-sm-4" for="pwd">E text</label>
+                  <div id="cp9" class="input-group colorpicker-component col-sm-4">
+                    <input type="text" value="#fffff" class="form-control" />
+                    <span class="input-group-addon"><i></i></span>
+                  </div>
+                  <script>
+                    $(function() {
+                      $('#cp9').colorpicker();
+                    });
+                  </script>
+                </div> <!-- .form-group -->
+
+
+
+                <div class="form-group">
+                  <label class="control-label col-sm-4" for="pwd">F text</label>
+                  <div id="cp10" class="input-group colorpicker-component col-sm-4">
+                    <input type="text" value="#66666" class="form-control" />
+                    <span class="input-group-addon"><i></i></span>
+                  </div>
+                  <script>
+                    $(function() {
+                      $('#cp10').colorpicker();
+                    });
+                  </script>
+                </div> <!-- .form-group -->
+
+                <div class="form-group">
+                  <label class="control-label col-sm-4" for="pwd">G background</label>
+                  <div id="cp11" class="input-group colorpicker-component col-sm-4">
+                    <input type="text" value="#fffff" class="form-control" />
+                    <span class="input-group-addon"><i></i></span>
+                  </div>
+                  <script>
+                    $(function() {
+                      $('#cp11').colorpicker();
+                    });
+                  </script>
+                </div> <!-- .form-group -->
+
+
+                <div class="form-group">
+                  <label class="control-label col-sm-4" for="pwd">H text</label>
+                  <div id="cp12" class="input-group colorpicker-component col-sm-4">
+                    <input type="text" value="#66666" class="form-control" />
+                    <span class="input-group-addon"><i></i></span>
+                  </div>
+                  <script>
+                    $(function() {
+                      $('#cp12').colorpicker();
+                    });
+                  </script>
+                </div> <!-- .form-group -->
+
+                <div class="form-group">
+                  <label class="control-label col-sm-4" for="pwd">H background</label>
+                  <div id="cp13" class="input-group colorpicker-component col-sm-4">
+                    <input type="text" value="#fffff" class="form-control" />
+                    <span class="input-group-addon"><i></i></span>
+                  </div>
+                  <script>
+                    $(function() {
+                      $('#cp13').colorpicker();
+                    });
+                  </script>
+                </div> <!-- .form-group -->
+
+
+              </form>  
+
+            </div>
+
+            <div class="col-xs-10 col-sm-4 col-lg-6">
+             
+              <div class="ui-html">
+                <section class="ui-header">
+                  <nav class="ui-utility">utility navigation<span>E</span></nav>
+                  <div class="ui-logo">logo<span>G</span></div>
+                  <nav class="ui-featured">featured navigation<span>F</span></nav>
+                  <nav class="ui-mainnav">main navigation<span>H</span></nav>
+                </section>
+                <section class="ui-content">
+                  <div class="ui-widget">
+                    <div class="ui-widget-header"><span>A</span> heading</div>
+                    <div class="ui-widget-content">
+                      <button><span>B</span>Button</button>
+                      <div class="ui-link"><span>C</span><a href="#"><span class="ui-icon">&middot;</span> hyperlink</a></div>
+                    </div>
+                  </div>
+                </section>
+                <div class="ui-page-bg"><span>D</span></div>
+              </div>
+
+            </div>   <!-- .col-xs-12 col-sm-6 col-lg-8 -->
+
+            <!-- </div> -->
+        </div>  <!-- .container -->
+
+        <br clear="all" /> <br /> 
+
+                  <button type="button" class="btn btn-primary">Save</button>
+                  <button type="button" class="btn btn-default">Revert to Last Saved Values</button>
+
+
+                </div>  <!-- menu1 -->
+
+                <div id="menu2" class="tab-pane fade">
+
+                <!-- Heading fonts and values -->
+                  
+                <div class="col-md-6">  
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                </div> 
+                
+                <br clear="all" /> <br />  
+
+          <div class="form-group">
+            <label class="col-sm-2 control-label">Heading font-family</label>
+
+            <div class="col-sm-8">
+              <select class="form-control" id="sel1">
+                <option>Georgia, "Times New Roman", Times, serif</option>
+                <option>"Palatino Linotype", "Book Antiqua", Palatino, serif</option>
+                <option>Arial, Helvetica, sans-serif</option>
+                <option>"Comic Sans MS", cursive, sans-serif</option>
+              </select>
+            </div>
+          </div>   <!-- .form-group -->
+
+            <br clear="all" /> <br /> 
+
+          <p>You can also change the text value of the consumer home page section headings listed below.</p>
+
+          <br clear="all" /> <br /> 
+
+          <div class="container">
+            <div class="col-md-3">Accounts</div>
+            <div class="col-md-3"><input type="Accounts" class="form-control" id="email" value="Accounts"></div>
+            <div class="col-md-3"><button type="button" class="btn btn-default btn-block">Accounts</button></div>
+          </div>
+
+          <div class="container">
+            <div class="col-md-3">Outside Accounts</div>
+            <div class="col-md-3"><input type="Accounts" class="form-control" id="email"  value="Outside Accounts"></div>
+            <div class="col-md-3"><button type="button" class="btn btn-default btn-block">Outisde Accounts</button></div>
+          </div>
+
+          <div class="container">
+            <div class="col-md-3">Bill Payment</div>
+            <div class="col-md-3"><input type="Accounts" class="form-control" id="email"  value="Payment Manager"></div>
+            <div class="col-md-3"><button type="button" class="btn btn-default btn-block">Payment Manager</button></div>
+          </div>
+
+          <div class="container">
+            <div class="col-md-3">FinanceWorks</div>
+            <div class="col-md-3"><input type="Accounts" class="form-control" id="email"  value="View My Spending"></div>
+            <div class="col-md-3"><button type="button" class="btn btn-default btn-block">View My Spending</button></div>
+          </div>
+          
+          <div class="container">
+            <div class="col-md-3">Purchase Rewards</div>
+            <div class="col-md-3"><input type="Accounts" class="form-control" id="email"  value="Loyalty Buck"></div>
+            <div class="col-md-3"><button type="button" class="btn btn-default btn-block">Loyalty Buck</button></div>
+          </div>
+
+          <br clear="all" /> <br /> 
+
+                  <button type="button" class="btn btn-primary">Save</button>
+                  <button type="button" class="btn btn-default">Revert to Last Saved Values</button>
+
+
+             <!-- Heading fonts and values -->
+
+                </div>  <!-- menu2 -->
+
+
+              </div>  <!-- tab-content -->
+            </div>  <!-- container -->
+
+            <!-- Dynamic Pills -->
+
+
+              </div>  <!-- demo collapse -->
+            </div> <!-- container  -->
+
+              <!--  Simple Collapsible -->
+
+
+               <!--  Simple Collapsible -->
+
+            <div class="container">
+
+              <a href="#navigation" class="btn btn-link" data-toggle="collapse">Navigation</a>
+              <div id="navigation" class="collapse">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </div>  <!-- demo collapse -->
+            </div> <!-- container  -->
+
+              <!--  Simple Collapsible -->
+
+
+               <!--  Simple Collapsible -->
+
+            <div class="container">
+
+              <a href="#promotion" class="btn btn-link" data-toggle="collapse">Promotion</a>
+              <div id="promotion" class="collapse">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </div>  <!-- demo collapse -->
+            </div> <!-- container  -->
+            
+              <!--  Simple Collapsible -->
+
+
+          </div> <!-- panel-body -->
+
+        </div>   <!-- collapse3 panel-collapse collapse -->
+      </div>  <!-- panel panel-default -->
+
+    </div>
+  </div>
+
+  <!-- Accordion -->
+
+</body>
+</html>
+

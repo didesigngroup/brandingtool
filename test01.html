@@ -1,0 +1,282 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css">
+  <link rel="stylesheet" href="https://mjolnic.com/bootstrap-colorpicker/dist/css/bootstrap-colorpicker.min.css">
+  <link rel="stylesheet" href="https://mjolnic.com/bootstrap-colorpicker/docs/assets/main.css">
+  
+  
+  <style>
+    .ui-page-bg{
+      padding: 20px;
+    }
+    .ui-html *{
+      /*border: 1px dotted #ccc;*/
+    }
+    nav, .ui-logo {clear: both;}
+    .ui-logo{
+      padding-left: 20px;
+    }
+    .ui-logo span {
+      text-align: right;
+    }
+    .ui-html {
+      border: 1px solid #666;
+      background: #ededed;
+    }
+    .ui-utility, .ui-featured {
+      float: right;
+      width: 50%;
+      margin-right: 40px;
+      border: 1px solid #333;
+    }
+    .ui-mainnav {
+      background-color: #666;
+      color: #fff;
+    }
+    .ui-header {background: #fff;}
+    .ui-header span {
+      float: right;
+      width: 50px;
+      text-align: center;
+    }
+    .ui-header > span {
+      float: right; width: 40px;
+      text-align: center;;
+    }
+    .ui-widget{
+      width: 50%;
+      margin: 20px;
+      border: 1px solid #999;
+      background: #fff;
+    }
+    .ui-widget * {
+      padding: 5px;
+    }
+    .ui-widget-content {
+      padding: 20px;
+    }
+    .ui-widget-header {
+      background-color: #666;
+      color: #fff;
+    }
+    .ui-icon {}
+  </style>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://mjolnic.com/bootstrap-colorpicker/dist/js/bootstrap-colorpicker.js"></script>
+
+</head>
+<body>
+
+
+
+ <div class="container">
+   <div class="col-xs-6 col-lg-4">
+
+
+    <form class="form-horizontal" role="form">
+
+      <div class="form-group">
+        <label class="control-label col-sm-4" for="pwd">A background</label>
+        <div id="cp2" class="input-group colorpicker-component col-sm-6">
+          <input type="text" value="#66666" class="form-control" />
+          <span class="input-group-addon"><i></i></span>
+        </div>
+        <script>
+          $(function() {
+            $('#cp2').colorpicker();
+          });
+        </script>
+      </div> <!-- .form-group -->
+
+      <div class="form-group">
+        <label class="control-label col-sm-4" for="pwd">A text</label>
+        <div id="cp3" class="input-group colorpicker-component col-sm-6">
+          <input type="text" value="#fffff" class="form-control" />
+          <span class="input-group-addon"><i></i></span>
+        </div>
+        <script>
+          $(function() {
+            $('#cp3').colorpicker();
+          });
+        </script>
+      </div> <!-- .form-group -->
+
+
+      <div class="form-group">
+        <label class="control-label col-sm-4" for="pwd">B background</label>
+        <div id="cp4" class="input-group colorpicker-component col-sm-6">
+          <input type="text" value="#66666" class="form-control" />
+          <span class="input-group-addon"><i></i></span>
+        </div>
+        <script>
+          $(function() {
+            $('#cp4').colorpicker();
+          });
+        </script>
+      </div> <!-- .form-group -->
+
+      <div class="form-group">
+        <label class="control-label col-sm-4" for="pwd">B text</label>
+        <div id="cp5" class="input-group colorpicker-component col-sm-6">
+          <input type="text" value="#fffff" class="form-control" />
+          <span class="input-group-addon"><i></i></span>
+        </div>
+        <script>
+          $(function() {
+            $('#cp5').colorpicker();
+          });
+        </script>
+      </div> <!-- .form-group -->
+
+
+      <div class="form-group">
+        <label class="control-label col-sm-4" for="pwd">C link/icon</label>
+        <div id="cp6" class="input-group colorpicker-component col-sm-6">
+          <input type="text" value="#0055cc" class="form-control" />
+          <span class="input-group-addon"><i></i></span>
+        </div>
+        <script>
+          $(function() {
+            $('#cp6').colorpicker();
+          });
+        </script>
+      </div> <!-- .form-group -->
+
+      <div class="form-group">
+        <label class="control-label col-sm-4" for="pwd">D background</label>
+        <div id="cp7" class="input-group colorpicker-component col-sm-6">
+          <input type="text" value="#ededed" class="form-control" />
+          <span class="input-group-addon"><i></i></span>
+        </div>
+        <script>
+          $(function() {
+            $('#cp7').colorpicker();
+          });
+        </script>
+      </div> <!-- .form-group -->
+
+
+      <div class="form-group">
+        <label class="control-label col-sm-4" for="pwd">E background</label>
+        <div id="cp8" class="input-group colorpicker-component col-sm-6">
+          <input type="text" value="#66666" class="form-control" />
+          <span class="input-group-addon"><i></i></span>
+        </div>
+        <script>
+          $(function() {
+            $('#cp8').colorpicker();
+          });
+        </script>
+      </div> <!-- .form-group -->
+
+      <div class="form-group">
+        <label class="control-label col-sm-4" for="pwd">E text</label>
+        <div id="cp9" class="input-group colorpicker-component col-sm-6">
+          <input type="text" value="#fffff" class="form-control" />
+          <span class="input-group-addon"><i></i></span>
+        </div>
+        <script>
+          $(function() {
+            $('#cp9').colorpicker();
+          });
+        </script>
+      </div> <!-- .form-group -->
+
+      <div class="form-group">
+        <label class="control-label col-sm-4" for="pwd">F text</label>
+        <div id="cp10" class="input-group colorpicker-component col-sm-6">
+          <input type="text" value="#66666" class="form-control" />
+          <span class="input-group-addon"><i></i></span>
+        </div>
+        <script>
+          $(function() {
+            $('#cp10').colorpicker();
+          });
+        </script>
+      </div> <!-- .form-group -->
+
+      <div class="form-group">
+        <label class="control-label col-sm-4" for="pwd">G background</label>
+        <div id="cp11" class="input-group colorpicker-component col-sm-6">
+          <input type="text" value="#fffff" class="form-control" />
+          <span class="input-group-addon"><i></i></span>
+        </div>
+        <script>
+          $(function() {
+            $('#cp11').colorpicker();
+          });
+        </script>
+      </div> <!-- .form-group -->
+
+
+      <div class="form-group">
+        <label class="control-label col-sm-4" for="pwd">H text</label>
+        <div id="cp12" class="input-group colorpicker-component col-sm-6">
+          <input type="text" value="#66666" class="form-control" />
+          <span class="input-group-addon"><i></i></span>
+        </div>
+        <script>
+          $(function() {
+            $('#cp12').colorpicker();
+          });
+        </script>
+      </div> <!-- .form-group -->
+
+      <div class="form-group">
+        <label class="control-label col-md-4" for="pwd">H background</label>
+        <div id="cp13" class="input-group colorpicker-component col-md-6">
+          <input type="text" value="#fffff" class="form-control" />
+          <span class="input-group-addon"><i></i></span>
+        </div>
+        <script>
+          $(function() {
+            $('#cp13').colorpicker();
+          });
+        </script>
+      </div> <!-- .form-group -->
+    </form>
+
+  </div>
+  <div class="col-xs-12 col-sm-6 col-lg-8">
+
+    <div class="ui-html">
+      <section class="ui-header">
+        <nav class="ui-utility">utility navigation<span>E</span></nav>
+        <div class="ui-logo">logo<span>G</span></div>
+        <nav class="ui-featured">featured navigation<span>F</span></nav>
+        <nav class="ui-mainnav">main navigation<span>H</span></nav>
+      </section>
+      <section class="ui-content">
+        <div class="ui-widget">
+          <div class="ui-widget-header"><span>A</span> heading</div>
+          <div class="ui-widget-content">
+            <button><span>B</span>Button</button>
+            <div class="ui-link"><span>C</span><a href="#"><span class="ui-icon">&middot;</span> hyperlink</a></div>
+          </div>
+        </div>
+      </section>
+      <div class="ui-page-bg"><span>D</span></div>
+    </div>
+  </div>
+
+
+</div>  <!-- .col-xs-12 .col-sm-6 .col-lg-8 -->
+
+
+<br clear="all" /> <br /> 
+
+<button type="button" class="btn btn-default">Save</button>
+<button type="button" class="btn btn-default">Revert to Last Saved Values</button>
+
+</div>  <!-- .row -->
+
+
+
+</body>
+</html>
